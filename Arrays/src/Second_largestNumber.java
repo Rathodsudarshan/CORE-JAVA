@@ -1,11 +1,10 @@
 import java.util.Scanner;
-
+// second largest number 
 public class Second_largestNumber {
 public static void main(String []args)
 {
 	Scanner sc=new Scanner(System.in);
 	System.out.println("Enter the size of an array");
-	
 	int n= sc.nextInt();
 	int a[]= new int[n];
 	System.out.println("Enter the element of an array");
@@ -19,7 +18,7 @@ public static void main(String []args)
 		{
 			if(a[i]>a[j])
 			{
-			int temp=a[i];
+			int temp=a[i]; 
 			a[i]=a[j];
 			a[j]=temp;
 			}
