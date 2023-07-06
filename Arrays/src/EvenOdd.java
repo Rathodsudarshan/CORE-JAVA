@@ -48,7 +48,7 @@ public class EvenOdd {
 	{
 		System.out.println(Even[i]+",");
 	}
-	//System.out.print(Even[k-1]);
+	System.out.print(Even[k-1]);
 	}
 	else {
 		System.out.println("NO NUMBER");
