@@ -5,7 +5,7 @@ public class commanElement {
 		int count=0;
 	 String a[]= {"java","python","PHP","css"};
 	 String b[]= {"javaScript","python","PHP","css"};
-	 String c[]=new String[4];
+	 //String c[]=new String[4];
 	 for(int i=0;i<4;i++)
 	 {
 		 for(int j=0;j<4;j++)
@@ -26,7 +26,8 @@ public class commanElement {
 		 }
 		 
 	 }
-	 System.out.println(count);
+	 System.out.println();
+	 System.out.println("count:-"+count);
 	
 	 
 	}

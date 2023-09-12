@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//To identify the even position number
 public class EvenPosition {
 	public static void main(String []args)
 	{

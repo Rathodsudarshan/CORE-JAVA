@@ -13,8 +13,8 @@ public class DuplicateRemove {
 		
 		for(int i=0;i<n;i++) {
 			for(int j=i+1;j<n;j++) {
-				if(a[i]==a[i+1]) {
-					System.out.print(a[j]);
+				if(a[i]==a[j]) {
+					System.out.print(a[i]);
 				}
 			}
 		}

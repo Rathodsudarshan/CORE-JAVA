@@ -10,7 +10,7 @@ public class insert {
 		  
 		 int []a=new int[n+1];
 		 System.out.println("Enter the array element");
-		 for( i=0;i<n;i++)
+		 for( i=0;i<n;i++) 
 		 {
 			 a[i]=sc.nextInt();
 			 
